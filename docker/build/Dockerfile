@@ -36,8 +36,7 @@ ENV METRIC_ENABLE=true \
     PRODUCER_RECEIVE_BUFFER_BYTES=32768 \
     BUFFERED_RECORDS_PER_PARTITION=500
 
-
-
+VOLUME ["/etc/normalizer/jars"]
 
 CMD exec /bin/normalizer-start.sh
 
