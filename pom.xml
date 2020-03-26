@@ -58,6 +58,7 @@
         <metrics-library.version>0.0.7</metrics-library.version>
         <config-bootstrapper.version>0.0.10</config-bootstrapper.version>
         <jackson.version>2.9.5</jackson.version>
+        <log4j.version>2.13.1</log4j.version>
     </properties>
 
     <modules>
